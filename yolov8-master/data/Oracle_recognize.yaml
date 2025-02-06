@@ -1,0 +1,96 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128-seg dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128-seg  ← downloads here (7 MB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../yolov5-master/Oracle_datasets/Oracle_recognize # dataset root dir
+train: images/train # train images (relative to 'path') 128 images
+val: images/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: bei3
+  1: bin1
+  2: bing3
+  3: bing4
+  4: cheng2
+  5: ci4
+  6: cong2
+  7: feng4
+  8: fu1
+  9: fu2
+  10: guang1
+  11: he2
+  12: hua4
+  13: huo4
+  14: ji2_1
+  15: ji2_2
+  16: jian1
+  17: jiang4
+  18: jiao1
+  19: jie4
+  20: jin1
+  21: kou3
+  22: lao3
+  23: li4
+  24: liao4
+  25: ling4
+  26: lu4
+  27: mao4
+  28: men2
+  29: mo4
+  30: mu3
+  31: mu4_1
+  32: mu4_2
+  33: ni4
+  34: pin4
+  35: qiang1
+  36: qiu1
+  37: qiu2
+  38: qu3
+  39: ren2
+  40: ru4
+  41: ruo4
+  42: sang4
+  43: sheng1
+  44: shuang3
+  45: si4
+  46: tian2
+  47: tu4
+  48: wan4
+  49: wang3
+  50: wei1
+  51: xian2
+  52: xiong1
+  53: yang1
+  54: yang2
+  55: yi1_1
+  56: yi1_2
+  57: yi2
+  58: yi3
+  59: yi4_1
+  60: yi4_2
+  61: yi4_3
+  62: yi4_4
+  63: yin4
+  64: yong1
+  65: yu2
+  66: yu4
+  67: yuan2
+  68: yun3
+  69: zai1
+  70: ze4
+  71: zhi3
+  72: zhi4_1
+  73: zhi4_2
+  74: zhu4
+  75: zong1
+  
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128-seg.zip
