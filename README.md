@@ -1,4 +1,12 @@
-**Automatic Segmentation and Recognition of Individual Oracle Bone Script Characters from Raw Oracle Bone Images Using an Improved YOLOv8 Mode**
+## Automatic Segmentation and Recognition of Individual Oracle Bone Script Characters from Raw Oracle Bone Images Using an Improved YOLOv8 Mode
+
+
+<img src="https://github.com/user-attachments/assets/c714a64e-2e39-446a-8ed4-26d5ed7d5eee" width="300" />
+<img src="https://github.com/user-attachments/assets/fa57ced5-1c42-4a1c-b4cf-18894c3eb2ca" width="300" />
+<img src="https://github.com/user-attachments/assets/3cf5591b-b301-4049-adb0-3f5004455be5" width="300" />
+
+
+
 
 **Description:**
 
@@ -19,14 +27,27 @@ Using the preprocessing model from Problem 1 and the segmentation model from Pro
 **4. Problem 4: Automatic Recognition of Segmented Characters**
 
 The preprocessing model was applied to 50 test images. The improved YOLOv8 model was then used to segment the oracle bone images, resulting in **361 segmented characters**. The YOLOv8 initial model was used to retrain and fit the labeled oracle bone script data, and the newly trained model was applied for automatic text recognition of the segmented characters. Detailed recognition results are provided in the supplementary materials.
+
 **Technologies:**
 	• Machine Learning: YOLOv8, YOLOv5, SIFT+BoW, HOG, LBP
 	• Image Processing: Homomorphic Filtering, Histogram Equalization, Grayscale Enhancement
 	• Programming Languages: Python
 	• Libraries & Tools: OpenCV, TensorFlow, PyTorch, Scikit-learn, NumPy, Matplotlib
+ 
 **Skills:**
 	• Image Preprocessing, Feature Extraction, Object Detection
 	• Machine Learning Model Development, Model Optimization
 	• Text Recognition, Data Annotation, Cross-validation
 	• Problem Solving, Model Evaluation, Data Visualization
+ 
+
+<img src="https://github.com/user-attachments/assets/ea93ff1a-cc91-43bf-bd3a-d9c27239df0d" width="300" />
+<img src="https://github.com/user-attachments/assets/828bdf77-7856-4b0a-a2b8-984bac1154a1" width="90" />
+<img src="https://github.com/user-attachments/assets/296e8fb1-f030-48a7-bc44-ecab1f5e1929" width="90" />
+<img src="https://github.com/user-attachments/assets/d87e9424-3d79-4473-99b5-c4cede8790b1" width="90" />
+<img src="https://github.com/user-attachments/assets/a8469568-bfab-4bbd-a143-a89f94ddf7a2" width="90" />
+<img src="https://github.com/user-attachments/assets/cef10867-0a9e-42b1-b5ef-4b2076b4cb2a" width="90" />
+<img src="https://github.com/user-attachments/assets/07cdd90f-178a-40c8-81a8-3fa0da27e0c5" width="90" />
+
+
 
